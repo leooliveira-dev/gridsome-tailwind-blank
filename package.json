@@ -1,0 +1,16 @@
+{
+  "name": "gridsome-blank",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "gridsome-plugin-tailwindcss": "^3.0.1"
+  }
+}
