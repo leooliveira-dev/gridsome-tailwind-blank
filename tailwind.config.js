@@ -2,13 +2,13 @@ module.exports = {
   purge: [],
   theme: {
     container: {
-      center: true
+      center: true,
       padding: {
-        default: "1rem";
-        phoneL: "2rem";
+        default: "1rem",
+        phoneL: "2rem",
         desktop: "0"
       }
-    }
+    },
     screens: {
       "phoneS": "320px",
       "phoneM": "375px",
