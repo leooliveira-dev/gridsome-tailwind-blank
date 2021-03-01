@@ -1,12 +1,18 @@
 module.exports = {
-  purge: [],
+  purge: false,
   theme: {
     container: {
       center: true,
-      padding: {
-        default: "1rem",
+      padding:{
+        phoneS: "2rem",
+        phoneM: "2rem",
         phoneL: "2rem",
-        desktop: "0"
+        phoneXL: "2rem",
+        tablet: "2rem",
+        laptopS: "4rem",
+        laptopL: "4rem",
+        laptopXL: "4rem",
+        desktop: "16rem"
       }
     },
     screens: {
@@ -17,8 +23,17 @@ module.exports = {
       "tablet": "768px",
       "laptopS": "1024px",
       "laptopL": "1280px",
-      "desktop": "1440px"
+      "laptopXL": "1440px",
+      "desktop": "1910px"
     },
+    fill: theme => ({
+      "black": theme("colors.black"),
+      "white": theme("colors.white")
+    }),
+    stroke: theme => ({
+      "black": theme("colors.black"),
+      "white": theme("colors.white")
+    }),
     extend: {},
   },
   variants: {},
